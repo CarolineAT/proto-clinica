@@ -10,7 +10,7 @@ export default function Componentes() {
     <Box className='containerComponentes'>
       <Grid container spacing={2}>
       <Grid item xs={12}>
-          <PrimaryButton size='large' sx={{marginLeft:'1000px'}} href='/'>Volver</PrimaryButton>
+          <PrimaryButton size='large' sx={{marginLeft:'1000px'}} href='/proto-clinica'>Volver</PrimaryButton>
         </Grid>
         <Grid item xs={12}>
           <Display1 >Componentes</Display1>

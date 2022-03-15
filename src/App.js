@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Inicio/>} />
+        <Route path='/proto-clinica' element={<Inicio/>} />
       </Routes>
       <Routes>
         <Route path='/componentes' element={<Componentes/>} />
