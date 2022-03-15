@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/proto-clinica/static/css/main.e33175df.css",
-    "main.js": "/proto-clinica/static/js/main.b319d77d.js",
+    "main.js": "/proto-clinica/static/js/main.f75de8f0.js",
     "index.html": "/proto-clinica/index.html",
     "main.e33175df.css.map": "/proto-clinica/static/css/main.e33175df.css.map",
-    "main.b319d77d.js.map": "/proto-clinica/static/js/main.b319d77d.js.map"
+    "main.f75de8f0.js.map": "/proto-clinica/static/js/main.f75de8f0.js.map"
   },
   "entrypoints": [
     "static/css/main.e33175df.css",
-    "static/js/main.b319d77d.js"
+    "static/js/main.f75de8f0.js"
   ]
 }
