@@ -12,10 +12,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/proto-clinica' element={<Inicio/>} />
+        <Route path='/' element={<Inicio/>} />
       </Routes>
       <Routes>
-        <Route path='/componentes' element={<Componentes/>} />
+        <Route path='/proto-clinica' element={<Componentes/>} />
       </Routes>
     </Router>
   );
