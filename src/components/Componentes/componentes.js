@@ -4,6 +4,7 @@ import PrimaryButton from './button';
 import { Display1 } from './tipografy';
 import { SecondaryButton } from './button';
 import ThemeTextField from './textField';
+import { CustomSelect } from './select/customSelect';
 
 export default function Componentes() {
   return (
@@ -55,6 +56,9 @@ export default function Componentes() {
         </Grid>
         <Grid item xs={3}>
           <Display1>Select</Display1>
+        </Grid>
+        <Grid item xs={3}>
+          <CustomSelect data={['titulos 1', 'titulos 2', 'titulos 3']} title={'Seleccionar algo'}></CustomSelect>
         </Grid>
       </Grid>
     </Box>
