@@ -15,6 +15,7 @@ const ThemeTextField = styled( TextField ) ({
         color:' #BBBBBB',
       },
       "& .MuiOutlinedInput-root": {
+        height: '50px',
         '& input': {
           paddingLeft: '16px',
           paddingTop: '16px',
