@@ -4,6 +4,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import { IndexView } from "./components/Componentes/appBar/indexView";
 import Componentes from "./components/Componentes/componentes";
 import Inicio from "./components/inicio";
 
@@ -16,6 +17,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path='/proto-clinica' element={<Componentes/>} />
+      </Routes>
+      <Routes>
+        <Route path='/appbar-example' element={<IndexView />} />
       </Routes>
     </Router>
   );
