@@ -25,9 +25,10 @@ export const IndexView = () => {
                 open={open} 
                 handleDrawerOpen={handleDrawerOpen} 
                 handleDrawerClose={handleDrawerClose}
+
             />
 
-            <DrawerLeft open={open} handleDrawerClose={handleDrawerClose} />
+            <DrawerLeft open={open} handleDrawerClose={handleDrawerClose}   handleDrawerOpen={handleDrawerOpen} />
 
             <MainContent open={open} />
         </Box>
