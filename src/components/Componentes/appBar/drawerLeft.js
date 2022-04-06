@@ -37,7 +37,6 @@ const CustomDrawer = styled(Drawer, { shouldForwardProp: (prop) => prop !== 'ope
         boxSizing: 'border-box',
         ...(open && {
             '& .MuiDrawer-paper': {
-                paddingLeft: '30px',
                 paddingTop: '16px',
                 width: 240,
                 transition: theme.transitions.create('width', {
