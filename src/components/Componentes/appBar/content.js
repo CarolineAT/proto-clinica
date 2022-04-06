@@ -1,7 +1,7 @@
 import { Box, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-const drawerWidth = 240;
+const drawerWidth = 320;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
     ({ theme, open }) => ({
@@ -17,13 +17,14 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
                 easing: theme.transitions.easing.easeOut,
                 duration: theme.transitions.duration.enteringScreen,
             }),
-            marginLeft: `${drawerWidth + 20}px`,
+            marginLeft: `${drawerWidth}px`,
             paddingRight: '30px',
             width: `calc(100% - ${drawerWidth}px)`,
         }),
         ...(!open && {
             borderBottomLeftRadius: 0,
             borderBottomRightRadius: 0,
+            marginLeft: '64px',
             transition: theme.transitions.create('margin', {
                 easing: theme.transitions.easing.sharp,
                 duration: theme.transitions.duration.leavingScreen

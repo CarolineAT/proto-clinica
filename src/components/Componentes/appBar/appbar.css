@@ -1,19 +1,61 @@
-.icon-home{
-    background: transparent url('../../../assets/icons/home.svg') no-repeat center ;
+.icon-home {
+    background: transparent url('../../../assets/icons/home.svg') no-repeat center;
 }
-.icon-home-hover{
-    background: transparent url('../../../assets/icons/home.svg') no-repeat center ;
+
+.icon-home-hover {
+    background: transparent url('../../../assets/icons/home.svg') no-repeat center;
 }
-.icon-home:hover{
+
+.icon-home:hover {
     width: 24px;
     height: 24px;
-    background: transparent url('../../../assets/icons/home.svg') no-repeat center ;
+    background: transparent url('../../../assets/icons/home.svg') no-repeat center;
 }
-.icon-menu-list{
+
+.icon-menu-list {
     height: 24px;
     width: 24px;
     padding: 0 20px;
 }
-button span{
+
+button span {
     display: none;
+}
+
+.MuiListItemText-primary.MuiTypography-body1.MuiTypography-displayBlock {
+    font-family: 'Interstate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.MuiButtonBase-root.MuiListItem-root.MuiListItem-gutters.MuiListItem-padding.MuiListItem-button:hover{
+    background: #EBF8F7;
+    font-family: 'Interstate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00837A;
+}
+
+.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium:hover{
+    background-color: #EBF8F7;
+}
+
+.MuiTypography-root.drawerTitle{
+    font-family: 'Interstate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.0120588em; 
+    color: rgba(54, 54, 54, 0.7);
+    padding-left: 12px;
+    margin-bottom: 30px;
+}
+
+.titleContenedor{
+    height: 60px;
 }
