@@ -1,0 +1,49 @@
+.MuiTypography-root.name{
+    font-family: interstate;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.0120588em;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.MuiTypography-root.job{
+    font-family: interstate;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 00.0120588em;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.MuiTypography-root.cerrarsesion{
+    font-family: interstate;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+.MuiSvgIcon-root.icon{
+    color: #FFFFFF;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.MuiToolbar-root.toolbar{
+    background-color: #00837D;
+}
+
+.MuiButtonBase-root.textoLista{
+    font-family: interstate;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #00837A;
+}

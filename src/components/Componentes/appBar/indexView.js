@@ -3,7 +3,7 @@ import { Box, CssBaseline} from '@mui/material';
 
 import { DrawerLeft } from './drawerLeft';
 import { MainContent } from './content';
-import { AppBarExample } from './appBar';
+import  Header  from './appBar';
 
 export const IndexView = () => {
 
@@ -21,10 +21,7 @@ export const IndexView = () => {
     return (
         <Box sx={{ display: 'flex', flexDirection: 'column' }}>
             <CssBaseline />
-            <AppBarExample
-                open={open} 
-                handleDrawerOpen={handleDrawerOpen} 
-                handleDrawerClose={handleDrawerClose}
+            <Header
 
             />
 
