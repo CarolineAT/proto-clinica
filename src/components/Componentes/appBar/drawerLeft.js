@@ -15,7 +15,7 @@ import VisarIcon from '../../../assets/icons/visar.svg'
 import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
 import { Visibility } from '@mui/icons-material';
 
-const BootstrapTooltip = styled(({ className, ...props }: TooltipProps) => (
+const BootstrapTooltip = styled(({ className, ...props }) => (
     <Tooltip {...props} arrow classes={{ popper: className }} />
 ))(({ theme }) => ({
     [`& .${tooltipClasses.arrow}`]: {
@@ -71,13 +71,13 @@ export const DrawerLeft = ({ open, handleDrawerClose, handleDrawerOpen }) => {
                 onClose={handleDrawerClose}
                 sx={{
                     '& .MuiDrawer-paper': {
-                        width: open ? 320 : 65,
+                        width: open ? 320 : 64,
                         background: '#FFFFFF',
                         color: '#67737C',
                         fontFamily: 'Interstate',
                         fontSize: '16px',
                         borderRight: 'none',
-                        top: '64px'
+                        top: '74px'
                         // [theme.breakpoints.up('md')]: {
                         //     top: '64px'
                         // }
