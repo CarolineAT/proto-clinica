@@ -13,19 +13,17 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
         }),
         // marginLeft: `-${drawerWidth}px`,
         ...(open && {
-            transition: theme.transitions.create('margin', {
+            transition: theme.transitions.create(['width', 'margin'], {
                 easing: theme.transitions.easing.easeOut,
                 duration: theme.transitions.duration.enteringScreen,
             }),
             marginLeft: `${drawerWidth}px`,
-            paddingRight: '30px',
             width: `calc(100% - ${drawerWidth}px)`,
         }),
         ...(!open && {
-            borderBottomLeftRadius: 0,
-            borderBottomRightRadius: 0,
             marginLeft: '64px',
-            transition: theme.transitions.create('margin', {
+            width: 'calc(100% - 64px)',
+            transition: theme.transitions.create(['width', 'margin'], {
                 easing: theme.transitions.easing.sharp,
                 duration: theme.transitions.duration.leavingScreen
             }),
@@ -35,9 +33,11 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
 
 export const MainContent = ({ open }) => {
     return (
-        <Box >
+        <Box>
             <Main open={open}>
-                <Typography>Contenido</Typography>
+                <Box margin="auto" sx={{backgroundColor: '#E6F6F5', width: '86%', height: '500px'}}>
+
+                </Box>
             </Main>
         </Box>
 
