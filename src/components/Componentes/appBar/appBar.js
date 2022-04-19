@@ -32,7 +32,7 @@ const Header = () => {
   
     <div>
      <Box  sx={{boxShadow:'none'}}>
-      <AppBar position="static" sx={{boxShadow:'none'}}>
+      <AppBar position="static" sx={{boxShadow:'none', bgcolor:'transparent'}}>
         <Toolbar className='toolbar' sx={{boxShadow:'none'}}>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                 <img src={Logo} alt='' className='logo'/>

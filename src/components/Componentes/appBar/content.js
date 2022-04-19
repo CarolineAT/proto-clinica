@@ -35,7 +35,7 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
 
 export const MainContent = ({ open }) => {
     return (
-        <Box mt="64px">
+        <Box >
             <Main open={open}>
                 <Typography>Contenido</Typography>
             </Main>
