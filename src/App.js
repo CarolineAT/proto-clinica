@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import { IndexView } from "./components/Componentes/appBar/indexView";
 import Componentes from "./components/Componentes/componentes";
+import CustomStepper from "./components/Componentes/stepper/stepper";
 import Inicio from "./components/inicio";
 
 
@@ -20,6 +21,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path='/appbar-example' element={<IndexView />} />
+      </Routes>
+      <Routes>
+        <Route path='/stepper' element={<CustomStepper />} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,30 @@
+.MuiStepLabel-label.Mui-completed {
+    font-family: "Interstate";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.0120588em;
+    color: #5143d5;
+  }
+  
+  .MuiStepLabel-label.Mui-active {
+    font-family: "Interstate";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.0120588em;
+    color: #909aa1;
+  }
+  
+  .MuiStepLabel-label.Mui-disabled {
+    font-family: "Interstate";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.0120588em;
+    color: #909aa1;
+  }
+  
